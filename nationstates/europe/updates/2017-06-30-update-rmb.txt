@@ -1,0 +1,36 @@
+[b]Europe in June 2017[/b]
+30 June 2017
+
+[spoiler][b]The basic Law[/b]
+
+In April 2017, Europe passed a new law, a Basic Law, to codify the long-unwritten and mostly unclear laws of the region. It organises how the region is run, broadly adopting a Westminster-style constitutional monarchy, with the Founder as the head of state and the Delegate as Prime Minister.
+
+Divided into seven substantive sections, it details how the region treats customary law, selection of officers, the formation of an executive, legislative powers, judicial powers, and interpretation.
+
+Legislative powers are held in a European Parliament, composed of all the World Assembly members of the region. Resolutions or bills are tabled before the Parliament in a poll, allowing the region to make decisions without relying on off-site forums, which could have issues like lack of participation or countermeasures against voting manipulation. After passing Parliament, that legislation requires assent by the Founder and promulgation in the parliamentary library. 
+
+Judicial powers, as defined by the Basic Law, are held between the Founder and the European Council. In a compromise between various members of the region, some of whom felt that a judicial system controlled by the political government would not be acceptable, the judicial system was set up centred around a more impartial Founder and European Council. This system tries to ensure unbiased assessment of judicial petitions. 
+
+Much of the Basic Law serves to replace and codify many long-standing customary law traditions in the region. Some elements of that customary law, such as the precedent for the Delegate not to eject other WA members for political reasons and for the region not to enforce an endorsement cap, are fundamental parts of how the region is run. Similarly, the tradition for Europe to refrain from voting in the Security Council on neutral affairs is also a part of customary law.
+
+The establishment of the Basic Law establishes supremacy of statutory law, which is clearly written and stated. This allows region-members to read the laws by which they are ruled and to change those laws. This summer, Europe is embarking on a legislative initiative to put into statute many of these provisions, clarify the nature of its laws, and reform its government.
+
+[b]Reaching 1000 nations[/b]
+
+Europe has reached over 1000 nations! Over the last three years, there has been a concerted effort to increase the population of Europe through a long-standing and massively successful telegram campaign. Since July 2016, 88 thousand recruitment telegrams have been sent by the Delegate, Imperium Anglorum. This has been assisted through the employ of Communiqué, an API telegram client created by the Delegate.
+
+This is the largest that Europe has ever been. Data from NS Dossier showed that in 2003, Europe reached a peak of some 861 nations, and later, in 2009, reached another peak of 801 nations. but as of 15 June 2017, Europe now reaches an incredible 1,070 nations, making it the 16th largest region, the 7th largest user-created region, and with a 84 per cent Delegate-endorsements-to-WA-member ratio, the second-largest UCR delegate.
+
+See this link for a graph! https://raw.githubusercontent.com/ifly6/ifly-images/master/nationstates/europe/graphs/2017-06-05/population-and-endos-since-2007-12-700px.png
+
+[b]The new legislative programme[/b]
+
+A new legislative programme has been launched in Europe, looking to codify much of the region's unclear and precedent-based customary law, reform various institutions, and establish a working basis into the future.
+
+Much of old precedent-based customary law is unclear and extremely fuzzy. This makes it hard for people to know what the law is. Furthermore, as it is based on precedent, it is also hard for it to be changed, since breaks from precedent are both violations of that law as well as ways to creating new precedent as well. Statutory codification, like that done in the Basic Law, helps to resolve these issues and make a clearer legal basis for Europe into the future.
+
+Already, a part of this legislative programme has been enacted, in the Judicial Standing Act, which restricts standing to regional natives to ensure that their judicial petitions are heard, given limited court time. Another part of this legislative programme is in the Cabinet Transparency Act, which establishes transparency and communicability requirements for high-ranking government ministers.
+
+Further parts of the programme want to reform the operations of the European Parliament, increase statutory accountability, clarify statutory interpretation, and establish a consistent nomenclature.
+
+The legislative programme is also considering the possibility of the region joining the World Assembly Legislative League, a voting bloc made up of the North Pacific, Europeia, Balder, and the International Democratic Union. The region is considering joining to expand its presence in the World Assembly and participation in its WA programme. Naturally, some trade-offs will have to be made with regard to the region's historical foreign policy. These discussions will be important in the coming future.[/spoiler]
