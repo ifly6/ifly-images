@@ -1,0 +1,75 @@
+[center][img]https://raw.githubusercontent.com/ifly6/ifly-images/master/nationstates/europe/e-foreign-horizontal-dark-350px.png[/img]
+
+[img]https://raw.githubusercontent.com/ifly6/ifly-images/master/nationstates/europe/europe-media-union/europe-media-union-127px.png[/img][/center]
+
+[color=#1d2951][size=10]Europe in June 2017[/size][/color]
+30 June 2017
+
+[b]The basic Law[/b]
+
+In April 2017, Europe passed a new law, a Basic Law, to codify the long-unwritten and mostly unclear laws of the region. It organises how the region is run, broadly adopting a Westminster-style constitutional monarchy, with the Founder as the head of state and the Delegate as Prime Minister.
+
+Divided into seven substantive sections, it details how the region treats customary law, selection of officers, the formation of an executive, legislative powers, judicial powers, and interpretation.
+
+Legislative powers are held in a European Parliament, composed of all the World Assembly members of the region. Resolutions or bills are tabled before the Parliament in a poll, allowing the region to make decisions without relying on off-site forums, which could have issues like lack of participation or countermeasures against voting manipulation. After passing Parliament, that legislation requires assent by the Founder and promulgation in the parliamentary library. 
+
+Judicial powers, as defined by the Basic Law, are held between the Founder and the European Council. In a compromise between various members of the region, some of whom felt that a judicial system controlled by the political government would not be acceptable, the judicial system was set up centred around a more impartial Founder and European Council. This system tries to ensure unbiased assessment of judicial petitions. 
+
+Much of the Basic Law serves to replace and codify many long-standing customary law traditions in the region. Some elements of that customary law, such as the precedent for the Delegate not to eject other WA members for political reasons and for the region not to enforce an endorsement cap, are fundamental parts of how the region is run. Similarly, the tradition for Europe to refrain from voting in the Security Council on neutral affairs is also a part of customary law.
+
+The establishment of the Basic Law establishes supremacy of statutory law, which is clearly written and stated. This allows region-members to read the laws by which they are ruled and to change those laws. This summer, Europe is embarking on a legislative initiative to put into statute many of these provisions, clarify the nature of its laws, and reform its government.
+
+[b]Reaching 1000 nations[/b]
+
+Europe has reached over 1000 nations! Over the last three years, there has been a concerted effort to increase the population of Europe through a long-standing and massively successful telegram campaign. Since July 2016, 88 thousand recruitment telegrams have been sent by the Delegate, Imperium Anglorum. This has been assisted through the employ of Communiqué, an API telegram client created by the Delegate.
+
+This is the largest that Europe has ever been. Data from NS Dossier showed that in 2003, Europe reached a peak of some 861 nations, and later, in 2009, reached another peak of 801 nations. but as of 15 June 2017, Europe now reaches an incredible 1,070 nations, making it the 16th largest region, the 7th largest user-created region, and with a 84 per cent Delegate-endorsements-to-WA-member ratio, the second-largest UCR delegate.
+
+[center][img]https://raw.githubusercontent.com/ifly6/ifly-images/master/nationstates/europe/graphs/2017-06-05/population-and-endos-since-2007-12-700px.png[/img][/center]
+
+[b]The new legislative programme[/b]
+
+A new legislative programme has been launched in Europe, looking to codify much of the region's unclear and precedent-based customary law, reform various institutions, and establish a working basis into the future.
+
+Much of old precedent-based customary law is unclear and extremely fuzzy. This makes it hard for people to know what the law is. Furthermore, as it is based on precedent, it is also hard for it to be changed, since breaks from precedent are both violations of that law as well as ways to creating new precedent as well. Statutory codification, like that done in the Basic Law, helps to resolve these issues and make a clearer legal basis for Europe into the future.
+
+Already, a part of this legislative programme has been enacted, in the Judicial Standing Act, which restricts standing to regional natives to ensure that their judicial petitions are heard, given limited court time. Another part of this legislative programme is in the Cabinet Transparency Act, which establishes transparency and communicability requirements for high-ranking government ministers.
+
+Further parts of the programme want to reform the operations of the European Parliament, increase statutory accountability, clarify statutory interpretation, and establish a consistent nomenclature.
+
+The legislative programme is also considering the possibility of the region joining the World Assembly Legislative League, a voting bloc made up of the North Pacific, Europeia, Balder, and the International Democratic Union. The region is considering joining to expand its presence in the World Assembly and participation in its WA programme. Naturally, some trade-offs will have to be made with regard to the region's historical foreign policy. These discussions will be important in the coming future.
+
+[b]Imperium Anglorum commended[/b]
+
+[i]Ever since Imperium Anglorum became Delegate, the region has experienced an era of growth, increasing influence in NationsStates politics, and higher-than-ever WA participation. Many of these achievements can be attributed to Imperium Anglorum, who was recently commended by the World Assembly Security Council, not only for making Europe one of the most influential regions in the game, but also for authoring no less than 14 General Assembly resolutions, helping others to write their own, developing a program to assist in WA campaigning and recruitment, and running the "Passed GA Resolutions" index.
+
+Below is an interview with our Delegate regarding his commendation, various achievements, controversies, and plans for the future.[/i]
+
+[i]What are your experiences since becoming the delegate of Europe? Which responsibilities does the delegate position has for the region? What is your opinion about the strict uninvolvement in the Security Council?[/i]
+
+Imperium Anglorum: The Delegate is effectively the chief executive of the region, as the Founder is not always active. In many ways, this is more akin to a Prime Ministerial role than one like a President, as is prevalent in most GCR regions and some UCRs, like Europeia. The Delegate is responsible for day-to-day affairs, with oversight by the Founder. It is fundamentally an elected position as well, since the Delegate is elected by the game-mechanism without restrictions, from the populace.
+
+I have two different views on the region's involvement, or lack thereof, in the Security Council. It has been a central point of 'neutrality', which makes Europe's foreign relations much more simple, since the region then basically does not have to deal with them. However, I also see how that lack of involvement has damaged the region's stature, since it then fails to have its voice heard on the international stage and necessarily means less activity and positions open in the region. These trade-offs are going to have to be something the region considers as a whole.
+
+[i]You were the driving force of writing the Basic Law, which can be regarded similar to constitution of our region. For what reasons did you write it and how do you think does it improve the situation in Europe?[/i]
+
+Imperium Anglorum: Before the Basic Law, Europe was ruled primarily by customary law, basically, precedents which ascended into 'we do things this way because we have always done them this way'. There are a number of problems with this: (1) nobody can always exactly know what the correct and relevant precedent is, (2) precedent is hard to change, making it extremely long-lasting but problematically rigid, and (3) precedents can always be interpreted and, at times, are contradictory, meaning that it becomes impossible even to know what one ought do, even if one has perfect memory.
+
+The Basic Law is an important step in solving these problems. By writing things down, we solve the age-old problem of the human memory. By writing into the Basic Law a way to change that law, we can also make it less rigid and more flexible. And overall, by including interpretation provisions and the use of words rather than past actions, which existed in their own contexts, we have a more clear conception of what the role of government actually is. 
+
+The Basic Law doesn't serve as a policy which I think benefits me -- I know the precedent of the past, having done in-depth research into the actions, public statements, and forum posts of many of our Delegates. This is about future Delegates, who now will not need to investigate years of contradictory precedent and memorise it to heart. Future delegates, future members of government, future members of Europe, now face a much smaller barrier in politics than ever before.
+
+[i]You were commended on the 15th of March, 2017 for your achievements. These also consist of writing 14 General Assembly proposals. For people who may want to participate more in the World Assembly, what tips can you give?[/i]
+
+Imperium Anglorum: Focus on the details. Passing lots of proposals, in the modern World Assembly, has much more to do with the fact that you need to find out what is legal, passable, and supportable, rather than anything having to do with some grand plan.
+
+Much of the World Assembly has turned into questions of legality, past resolutions, and politics. I will certainly say that the path to becoming a GA author is not an easy one, it requires dedication and involves a huge learning curve. I think this has to do with the general maturity of the various topics. What is not yet legislated upon is either controversial, boring, or unimportant. That is not to say there cannot be new and interesting ideas, Umeria, when thinking of quarantine regulations, certainly touched on a topic that had not yet come before the 'modern' Assembly. However, it certainly is the case that many ideas have already been dealt with.
+
+I would recommend any budding author to start with repeals. Many proposals would probably best be replaced, and therefore, would require substantive legislation for such replacement. A repeal-replace effort would give experience in both repeals, a more broad and easier topic of legislation, and legislative drafting, while building experience towards acceptance by the GA community as a whole. It is not a short process, and it certainly will require perseverance.
+
+[i]What do you think has caused the boom in population growth in Europe, and what effect do you hope this will have on the international community?[/i]
+
+Imperium Anglorum: I think there are two major causes of the population boom: (1) a rise in the number of nations in NationStates as a whole and (2) increased ability of Europe to recruit to the region. The first is simply a wave, a trend, over which we have no power. The second is borne from one's actions -- over the last year, I have sent over 80 000 recruitment telegrams, but in the past, telegrams were sent only in limited quantities. There are three reasons for this success:
+
+First, by writing my own telegram script, I am able to target the kinds of nations which would likely fit in the region, meaning that we have a higher chance of recruitment success. Second, by using the API system, we gain an advantage over stamp recruitment, which generally has a longer dispatch queue than the telegrams API (you can ask me about the various technical details some other time). Third, over the last few weeks, I've noticed a marked increase in our recruitment success, which coincided with my receipt of a commendation. It seems that the badge has helped our recruitment, which itself uses telegrams dispatched in my name.
+
