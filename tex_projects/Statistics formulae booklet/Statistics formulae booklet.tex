@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{helvet}
+
+% Math displaystyle
+\everymath{\displaystyle}
+
+%% BEGIN DOCUMENT! %%
+\begin{document}
+
+% Make tables look better
+\renewcommand{\arraystretch}{1.75}
+
+% MANUAL TITLE
+\begin{center}
+	\centering \LARGE Statistics formulae booklet \\[1ex]
+	\centering \large 6 February 2015
+\end{center}
+
+% begin main text
+\section{Quantitative variables}
+Where $x_n$ is the indexed element in the data set, $n$ is the number of elements themselves, $\mu$ is the mean, and $\sigma$ is the standard deviation. Note that variance $\left(\sigma^2\right)$ is equal to standard deviation squared.
+\begin{center}
+\begin{tabular}{ c c m{6cm}} \hline
+Mean & $\bar{x} = \frac{\sum^{n}_{i=0} x_i}{n}$ & the sum of all elements divided by the number of elements. Note that for populations, $\bar{x}$ should be $\mu$ \\ \hline
+Sample std dev & $s = \sqrt{\frac{\sum^n_{i=1} \left ( x_i - \bar{x} \right) ^ 2}{n - 1}}$ & the square root of the sum of the squares of the difference of all elements and the mean divided by $n-1$ \\ \hline
+Population std dev & $\sigma = \sqrt{\frac{\sum^n_{i=1} \left ( x_i - \mu \right) ^ 2}{n}}$ & the square root of the sum of the squares of the difference of all elements and the mean divided by $n$ \\ \hline
+\end{tabular}
+\end{center}
+
+\section{Normal model}
+The normal model has two parameters, $\sigma$ and $\mu$. They are standard deviation and mean, respectively. Be aware that the normal model has no endpoints.
+\begin{center}
+\begin{tabular}{ c c m{6cm} } \hline
+Standardised normal variable (z-score) & $z = \frac{x -     \mu}{\sigma}$ & the difference between the element and the mean, divided by the standard deviation \\ \hline
+\end{tabular}
+\end{center}
+
+\section{Linear regression}
+Remember that for all linear models, the model predicts that such a data value will occur. Values of $r$, if not given, should be found using the calculator or by reversing the slope formula. Remember that the negativity of $r$ matters in determining the slope of the line.
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}m{4cm} c m{6cm} } \hline
+Equation of a line & $\hat{y} = b_0 + b_1x$ & $b_0$ is the intercept, and $b_1$ is the slope of the line \\ \hline
+Intercept $\left(b_0\right)$ & $b_0 = \bar{y} - b_1\bar{x}$ & Algebraic manipulation of the equation of a line \\ \hline
+Slope $\left(b_1\right)$ & $b_1 = r \frac{s_y}{s_x}$ & Where $s_y$ and $s_x$ are the standard deviations of $y$ and $x$, respectively \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+\section{Probability}
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}m{4cm} c m{6cm} } \hline
+General addition & $P\left(A \cup B\right) = P\left(A\right) + P\left(B\right) - P\left(A \cap B \right) $ & the probability of A or B occurring is the sum of the two probabilities without the probability that both occur \\ \hline
+General multiplication & $P\left(A \cap B \right) = P\left(A|B \right) \cdot P\left(B \right)$ & the probability that both occur is the probability of the second multiplied by the probability of the first given the second \\ \hline
+\end{tabular}
+\end{center}
+
+\section{Random variables}
+\subsection{Expected values and measures of spread}
+Where $p$ is the probability of success, $n$ is the number of trials, and if you find an instance of $q$, remember that $q = 1-p$. The following is a table for expected values and variance.
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}m{4cm} c m{6cm} } \hline
+General expected value & $E\left(X\right) = \sum^{n}_{i=1} x_i P_i$ & sum of all relevant frequencies multiplied by all relevant outputs starting from 1 to the number of relevant data values \\ \hline
+Geometric $E(X)$ & $E(X) = p^{-1}$ & the reciprocal of the probability of occurrence \\ \hline
+Binomial $E(X)$ & $E(X) = np$ & $E(X)$ is the probability multiplied by the number of trials \\ \hline
+General variance & $\mathrm{Var}\left(X\right) = \sum^{n}_{i=1}\left(x_i - \mu_i \right)^2 p_i$ & the sum of all the elements' differences from the mean squared which is then multiplied by the probability of that element \\ \hline
+Pythagorean theorem of statistics & $\mathrm{SD}(X)^2 + \mathrm{SD}(Y)^2 = \mathrm{SD}(X+Y)^2$ & used when adding or subtracting two different random variables, here, $X$ and $Y$. It can also be expressed as $\mathrm{Var}(X) + \mathrm{Var}(Y) = \mathrm{Var}(X+Y)$, using variance instead of standard deviation \\ \hline
+Geometric $\sigma$ & $\sigma = \sqrt{\left(1-p\right)p^{-2}}$ & the square root of the quantity $q$ divided by $p^2$ \\ \hline
+Binomial $\sigma$ & $\sigma = \sqrt{np\left(1-p\right)}$ & the square root of $p$ multiplied by $q$ and $n$ \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Probabilities}
+For determining the probabilities of these random variables, determine whether it is geometric or binomial. The formulae for those is provided here. It is good to remember that as the number of trials approaches infinity, it becomes closer to the expected value.
+
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}m{4cm} c m{6cm} } \hline
+Binomial $P(X=x)$ & $P(X=x) = \binom{n}{x} \ p^x \left( 1 - p \right) ^ {n-x} $ & this states that the probability of getting a parameter number of $X$ of $n$ trials \\ \hline
+Geometric $P(X=x)$ & $P\left(X=x\right) = \left ( 1 - p\right )^{n-1}p$ & this states the probability of not getting a success for $n-1$ times until getting an $n$ \\ \hline
+\end{tabular}
+\end{center}
+
+\section{Sample distributions}
+This deals with the Central limit theorem and the sample of the population (the sample proportion, listed as $\hat{p}$). The mean of multiple samples, the foundation of the Central limit theorem, is shown as $\bar{x}$ and its standard deviation as $\sigma_{\bar{x}}$
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}m{4cm} c m{6cm} } \hline
+SD$\left ( \hat{p} \right )$ & $\sigma_{\hat{p}} = \sqrt{\frac{p(p-1)}{n}}$ & This is for determining the standard deviation of sample distributions \\ \hline
+SD$\left ( \bar{x} \right )$ & $\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}$ & This is for determining the standard deviation of multiple sample means \\ \hline
+Standard error & $SE(\hat{p}) = \sqrt{\frac{\hat{p}\left( 1 - \hat{p} \right)}{n}}$ & Standard error is an estimation of standard deviation when we do not know $p$ but do know $\hat{p}$ \\ \hline
+
+\end{tabular}
+\end{center}
+
+\end{document}
