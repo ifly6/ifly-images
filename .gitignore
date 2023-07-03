@@ -1,0 +1,9 @@
+# apple stuff
+.DS_Store
+
+# intermediate text products
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
