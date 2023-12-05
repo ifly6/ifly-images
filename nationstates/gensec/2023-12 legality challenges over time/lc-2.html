@@ -1,0 +1,721 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content />
+<meta name="description" content />
+<title>NationStates &bull; Search</title>
+<link rel="alternate" type="application/atom+xml" title="Feed - NationStates" href="https://forum.nationstates.net/feed.php" /><link rel="alternate" type="application/atom+xml" title="Feed - All forums" href="https://forum.nationstates.net/feed.php?mode=forums" />
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '2';
+	var per_page = '25';
+	var base_url = './search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=forum.nationstates.net';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="./styles/prosilver-ns/template/styleswitcher.js"></script>
+<script type="text/javascript" src="./styles/prosilver-ns/template/forum_fn.js"></script>
+<link href="./styles/prosilver-ns/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="./style.php?id=2&amp;lang=en" rel="stylesheet" type="text/css" media="screen, projection" />
+<link href="./styles/prosilver-ns/theme/normal.css" rel="stylesheet" type="text/css" title="A" />
+<link href="./styles/prosilver-ns/theme/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
+<link href="./styles/prosilver-ns/theme/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
+<link rel="stylesheet" href="./styles/prosilver-ns/theme/ns_v19.css" type="text/css" />
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-3291802-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!--[if IE 6]>
+<style>img.forumflag { height:71px; width:107px;}</style>
+<![endif]-->
+</head>
+<body id="phpbb" class="section-search ltr">
+<script type="text/javascript">
+google_analytics_domain_name=".nationstates.net";
+window.google_analytics_uacct = "UA-3291802-2";
+</script>
+<div id="nsbanner">
+<div id="logoutbox" class="transparentoid"><a href="./ucp.php?mode=logout&amp;sid=8166740ed049f14074f251a6210bb036" title="Logout [ Imperium Anglorum ]">Logout</a></div>
+<div id="loginbannerbox"><div id="lbbheader"><a href="./ucp.php?mode=logout&amp;sid=8166740ed049f14074f251a6210bb036" title="Logout [ Imperium Anglorum ]" onClick="return toggleStickyLoginBox()">
+Switch
+</a></div>
+<div id="loginbox">
+<form action="/ucp.php?mode=login&nsswitch=1" method="post" target="_top"><input type="hidden" name="login" value="Login"><p>NATION
+<p><input size="18" name="username" type="text" onClick="document.getElementById('loginbox').className = 'activeloginbox';">
+<p>PASSWORD
+<p><input size="18" name="password" type="password">
+<p><input type="submit" value="Login" name="submit"></form>
+</div></div>
+<a href="//www.nationstates.net"><img class="logo" src="//www.nationstates.net/images/banner3green.png" alt="Jennifer Government: NationStates" title="Jennifer Government: NationStates" /></a>
+</div>
+<div id="nssidebar">
+<iframe src="//www.nationstates.net/page=panel/template-overall=minimal/fp=1/fsid=8166740ed049f14074f251a6210bb036" frameborder="0" scrolling="no">The NS sidebar could not be displayed.</iframe>
+</div>
+<div id="wrap" class="beside_nssidebar_1">
+<a id="top" name="top" accesskey="t"></a>
+<div id="page-header">
+<div class="navbar">
+<div class="inner"><span class="corners-top"><span></span></span>
+<ul class="linklist navlinks">
+<li class="icon-home"><a href="./index.php" accesskey="h">Board index</a> </li>
+<li class="rightside"><a href="#" onclick="fontsizeup(); return false;" onkeypress="return fontsizeup(event);" class="fontsize" title="Change font size">Change font size</a></li>
+</ul>
+<ul class="linklist leftside">
+<li class="icon-ucp">
+<a href="./ucp.php" title="User Control Panel" accesskey="e">User Control Panel</a>
+&bull;
+<a href="./search.php?search_id=egosearch">View your posts</a>
+</li>
+</ul>
+<ul class="linklist rightside">
+<li class="icon-members"><a href="./memberlist.php" title="View complete list of members">Members</a></li><li class="icon-search"><a href="./search.php" title="Search">Search</a></li>
+<li class="icon-logout"><a href="./ucp.php?mode=logout&amp;sid=8166740ed049f14074f251a6210bb036" title="Logout [ Imperium Anglorum ]" accesskey="x">Logout [ Imperium Anglorum ]</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+</div>
+<a name="start_here"></a>
+<div id="page-body">
+<h2>Search found 247 matches: <a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly">challenge |litigation</a></h2>
+<p>Searched query: <strong>challenge |litigation</strong></p>
+<p><a class="left" href="./search.php" title="Advanced search">Return to advanced search</a></p>
+<form method="post" action="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly">
+<div class="topic-actions">
+<div class="search-box">
+<label for="add_keywords">Search these results: <input type="text" name="add_keywords" id="add_keywords" value class="inputbox narrow" /></label>
+<input class="button2" type="submit" name="submit" value="Search" />
+</div>
+<div class="rightside pagination">
+Search found 247 matches &bull; <a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Page <strong>2</strong> of <strong>10</strong></a> &bull; <span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly">1</a><span class="page-sep">, </span><strong>2</strong><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=50">3</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=75">4</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=100">5</a><span class="page-dots"> ... </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=225">10</a></span>
+</div>
+</div>
+</form>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=822274">Merni</a></dt>
+<dd>18 Jul 2022 04:22</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=521266&amp;hilit=challenge+litigation">[Challenge withdrawn] Repeal: “Museums Of Musical Heritage”</a></dd>
+<dd>Replies: <strong>6</strong></dd>
+<dd>Views: <strong>187</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=521266&amp;p=39803727&amp;hilit=challenge+litigation#p39803727">[<span class="posthilit">Challenge</span> withdrawn] Repeal: “Museums Of Musical Heritage”</a></h3>
+<div class="content">I apologise very much for the post-last minute <span class="posthilit">challenge</span>&#46; I have only seen this proposal after it went to vote&#46; General Assembly Resolution #86 “Museums of Musical Heritage” &#40;Category&#58; Education and Creativity; Area of Effect&#58; Cultural Heritage&#41; &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=521266&amp;p=39803727&amp;hilit=challenge+litigation#p39803727" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=635753" style="color: #ff69b4;" class="username-coloured">Wallenburg</a></dt>
+<dd>14 Jul 2022 10:39</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=520963&amp;hilit=challenge+litigation">[CHALLENGE] Repeal &quot;Museums of Musical Heritage&quot;</a></dd>
+<dd>Replies: <strong>11</strong></dd>
+<dd>Views: <strong>438</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=520963&amp;p=39791050&amp;hilit=challenge+litigation#p39791050">[<span class="posthilit">CHALLENGE</span>] Repeal &quot;Museums of Musical Heritage&quot;</a></h3>
+<div class="content">Challenged Proposal&#58; Repeal &quot;Museums of Musical Heritage&quot; Rule Broken&#58; Honest Mistake Argument&#58; The target of this repeal lays out a basic process for compensating the owners musical art&#58; While voluntary donations are strongly suggested, pecuniary compensation &#40;if necessary&#41; will b&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=520963&amp;p=39791050&amp;hilit=challenge+litigation#p39791050" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1598282">The Forest of Aeneas</a></dt>
+<dd>07 Jun 2022 19:02</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=519826&amp;hilit=challenge+litigation">[Challenge] Repeal: Preventing Identity Theft</a></dd>
+<dd>Replies: <strong>23</strong></dd>
+<dd>Views: <strong>912</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=519826&amp;p=39678423&amp;hilit=challenge+litigation#p39678423">[<span class="posthilit">Challenge</span>] Repeal: Preventing Identity Theft</a></h3>
+<div class="content">Sorry for the 11th hour <span class="posthilit">challenge</span> - I haven't really been paying attention to this repeal before getting to vote&#46; Filed at request of the repeal author&#46; The repeal claims that (the WA is); Distressed that this clause (Clause 5) may even &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=519826&amp;p=39678423&amp;hilit=challenge+litigation#p39678423" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1337075">Comfed</a></dt>
+<dd>23 May 2022 15:21</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=519297&amp;hilit=challenge+litigation">[LEGALITY CHALLENGE] Crime Victims Res. Plagiarizes GA#247</a></dd>
+<dd>Replies: <strong>9</strong></dd>
+<dd>Views: <strong>843</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=519297&amp;p=39630690&amp;hilit=challenge+litigation#p39630690">[LEGALITY <span class="posthilit">CHALLENGE</span>] Crime Victims Res. Plagiarizes GA#247</a></h3>
+<div class="content">Hi everyone, The proposal &quot;Crime Victims' Rights Act&quot; is in violation of the plagiarism rule&#46; The definitions in the proposal are mostly copied from GA#247, &quot;Rights of Crime Victims&quot;, with some insignificant modifications to specific words, terms, or even the order of words or te&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=519297&amp;p=39630690&amp;hilit=challenge+litigation#p39630690" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1082695">Makko Oko</a></dt>
+<dd>06 May 2022 22:46</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=518552&amp;hilit=challenge+litigation">[Legality Challenge] Reducing Statelessness [GAR#386]</a></dd>
+<dd>Replies: <strong>5</strong></dd>
+<dd>Views: <strong>261</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=518552&amp;p=39582768&amp;hilit=challenge+litigation#p39582768">[Legality <span class="posthilit">Challenge</span>] Reducing Statelessness [GAR#386]</a></h3>
+<div class="content">&#46;&#46;&#46; Organization&quot; was originally established to have&#46; This is all my evidence on this matter, I thank the World Assembly for considering my <span class="posthilit">challenge</span>&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=518552&amp;p=39582768&amp;hilit=challenge+litigation#p39582768" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1282671">Mancheseva City</a></dt>
+<dd>01 May 2022 07:23</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=518336&amp;hilit=challenge+litigation">[Legality Challenge] Repeal: &quot;LEO Force Restrictions&quot;</a></dd>
+<dd>Replies: <strong>7</strong></dd>
+<dd>Views: <strong>392</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=518336&amp;p=39565572&amp;hilit=challenge+litigation#p39565572">[Legality <span class="posthilit">Challenge</span>] Repeal: &quot;LEO Force Restrictions&quot;</a></h3>
+<div class="content">https&#58;//www&#46;nationstates&#46;net/page=ga https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?f=9&amp;t=516066 Rule broken&#58; Honest Mistake rule The target states&#58; requires that LEOs&#58; &#46;&#46;&#46; ensure that people they have harmed under Article d(i) receive any basic first aid necessary for their survival , The repeal &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=518336&amp;p=39565572&amp;hilit=challenge+litigation#p39565572" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1523077">Apatosaurus II</a></dt>
+<dd>01 Apr 2022 23:00</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=517263&amp;hilit=challenge+litigation">[LEGALITY CHALLENGE] Repeal &quot;LISA&quot;</a></dd>
+<dd>Replies: <strong>18</strong></dd>
+<dd>Views: <strong>686</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=517263&amp;p=39492652&amp;hilit=challenge+litigation#p39492652">[LEGALITY <span class="posthilit">CHALLENGE</span>] Repeal &quot;LISA&quot;</a></h3>
+<div class="content"> IMPORTANT &#58; This thread is NOT about whether you think the principle of LISA was good, or whether LISA impedes on freedom of speech or religion, or whether LISA mandates leftist indoctrination, or even whether you supported LISA&#46; This thread is ENTIRELY about the at-vote repeal's compliance (or lac&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=517263&amp;p=39492652&amp;hilit=challenge+litigation#p39492652" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=461484" style="color: #ff69b4;" class="username-coloured">Imperium Anglorum</a></dt>
+<dd>06 Mar 2022 23:36</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=39">General Assembly Secretariat</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=39&amp;t=516317&amp;hilit=challenge+litigation">[CHALLENGE] Repeal &quot;Nuclear arms possession act&quot;</a></dd>
+<dd>Replies: <strong>2</strong></dd>
+<dd>Views: <strong>32</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=39&amp;t=516317&amp;p=39423654&amp;hilit=challenge+litigation#p39423654">[<span class="posthilit">CHALLENGE</span>] Repeal &quot;Nuclear arms possession act&quot;</a></h3>
+<div class="content"><span class="posthilit">Challenge</span> raised indirectly at <a class="postlink-local" href="https://forum.nationstates.net/viewtopic.php?p=39415345#p39415345">viewtopic.php?p=39415345#p39415345</a>.<br/>Proposal challenged is <a class="postlink-local" href="https://forum.nationstates.net/viewtopic.php?t=515759">viewtopic.php?t=515759</a>.<br/><br/>I move we take it up.</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=39&amp;t=516317&amp;p=39423654&amp;hilit=challenge+litigation#p39423654" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=284218">Sierra Lyricalia</a></dt>
+<dd>21 Jan 2022 09:23</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=40">Secretariat Archives</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=40&amp;t=514809&amp;hilit=challenge+litigation">[CHALLENGE] Repeal &quot;Epidemic Investigation Act&quot; [op. posted]</a></dd>
+<dd>Replies: <strong>10</strong></dd>
+<dd>Views: <strong>237</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=40&amp;t=514809&amp;p=39303139&amp;hilit=challenge+litigation#p39303139">[<span class="posthilit">CHALLENGE</span>] Repeal &quot;Epidemic Investigation Act&quot; [op. posted]</a></h3>
+<div class="content"> <span class="posthilit">Challenge</span> thread #1 <span class="posthilit">Challenge</span> thread #2 Draft thread General Assembly Resolution #566 “Epidemic Investigation Act” &#40;Category&#58; Health; Area of Effect&#58; Research&#41; shall be struck out and rendered null and void&#46; The General &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=40&amp;t=514809&amp;p=39303139&amp;hilit=challenge+litigation#p39303139" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1201117">Hulldom</a></dt>
+<dd>19 Jan 2022 16:13</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=514777&amp;hilit=challenge+litigation">[CHALLENGE] Repeal: &quot;Epidemic Investigation Act&quot;</a></dd>
+<dd>Replies: <strong>6</strong></dd>
+<dd>Views: <strong>620</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=514777&amp;p=39298826&amp;hilit=challenge+litigation#p39298826">[<span class="posthilit">CHALLENGE</span>] Repeal: &quot;Epidemic Investigation Act&quot;</a></h3>
+<div class="content">Better to get out ahead of these things than to wait, methinks&#46; I thank GenSec for their time beforehand, regardless of what the outcome is&#46; Challenged Proposal &#58; Repeal&#58; &quot;Epidemic Investigation Act&quot; Targeted and Mentioned Resolution Links &#58; Target &#58; &quot;Epidemic Investigation Act&quot; &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=514777&amp;p=39298826&amp;hilit=challenge+litigation#p39298826" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=822274">Merni</a></dt>
+<dd>03 Jan 2022 10:09</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=514325&amp;hilit=challenge+litigation">[CHALLENGE AT-VOTE] Repeal: “On Scientific Cooperation”</a></dd>
+<dd>Replies: <strong>39</strong></dd>
+<dd>Views: <strong>2386</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=514325&amp;p=39262668&amp;hilit=challenge+litigation#p39262668">[<span class="posthilit">CHALLENGE</span> AT-VOTE] Repeal: “On Scientific Cooperation”</a></h3>
+<div class="content">At the outset&#58; I sincerely regret posting this <span class="posthilit">challenge</span> when the proposal is already at vote&#46; I have not been reading the GA forums and looking at upcoming proposals, so I only read this when it went to vote&#46; Challenged proposal &#58; Repeal&#58; “On Scientific &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=514325&amp;p=39262668&amp;hilit=challenge+litigation#p39262668" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=296708">Bananaistan</a></dt>
+<dd>27 Dec 2021 01:38</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=40">Secretariat Archives</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=40&amp;t=514075&amp;hilit=challenge+litigation">[CHALLENGE] (Already resolved) Repeal &quot;Clean Prostitute Act&quot;</a></dd>
+<dd>Replies: <strong>6</strong></dd>
+<dd>Views: <strong>356</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=40&amp;t=514075&amp;p=39248316&amp;hilit=challenge+litigation#p39248316">[<span class="posthilit">CHALLENGE</span>] (Already resolved) Repeal &quot;Clean Prostitute Act&quot;</a></h3>
+<div class="content">For admin purposes, per the <a href="https://forum.nationstates.net/viewtopic.php?f=9&amp;t=512813" class="postlink">public <span class="posthilit">challenge</span> thread</a>, GenSec voted illegal 3-2 (posts leading up to this <a href="https://forum.nationstates.net/viewtopic.php?p=39190979" class="postlink">one</a>) - SL, BA and GH illegal, Sep and I legal. I suspect that <a href="https://forum.nationstates.net/viewtopic.php?p=39190896#p39190896" class="postlink">SL's post</a> is a draft opinion.</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=40&amp;t=514075&amp;p=39248316&amp;hilit=challenge+litigation#p39248316" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1385301">Apatosaurus</a></dt>
+<dd>17 Dec 2021 14:12</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=513585&amp;hilit=challenge+litigation">[LEGALITY CHALLENGE] The Children Act</a></dd>
+<dd>Replies: <strong>19</strong></dd>
+<dd>Views: <strong>647</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=513585&amp;p=39225726&amp;hilit=challenge+litigation#p39225726">[LEGALITY <span class="posthilit">CHALLENGE</span>] The Children Act</a></h3>
+<div class="content">Apologies for bringing this up so last-minute; I originally wanted more time since I expected Repeal &quot;Rights of Crime Victims&quot; to get to quorum first, but it seems that the challenged proposal got to quorum before that other proposal&#46; Link to challenged proposal&#58; https&#58;//www&#46;nationstates&#46;n&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=513585&amp;p=39225726&amp;hilit=challenge+litigation#p39225726" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1425461">Milorum</a></dt>
+<dd>30 Nov 2021 21:56</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=512813&amp;hilit=challenge+litigation">[LEGALITY CHALLENGE] Repeal: “Clean Prostitute Act”</a></dd>
+<dd>Replies: <strong>28</strong></dd>
+<dd>Views: <strong>1560</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=512813&amp;p=39184916&amp;hilit=challenge+litigation#p39184916">[LEGALITY <span class="posthilit">CHALLENGE</span>] Repeal: “Clean Prostitute Act”</a></h3>
+<div class="content">Proposal of concern here&#58; https&#58;//www&#46;nationstates&#46;net/page=UN_view_proposal/id=thousand_branches_1637331740 &#91;resolution=GA#179&#93;General Assembly Resolution #179 “Clean Prostitute Act”&#91;/resolution&#93; &#40;Category&#58; Free Trade; Strength&#58; Mild&#41; shall be struck out and rendered null and void Acknowled&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=512813&amp;p=39184916&amp;hilit=challenge+litigation#p39184916" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=1193349">Morover</a></dt>
+<dd>11 Sep 2021 11:35</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=509795&amp;hilit=challenge+litigation">[Challenge] Repeal: “Affordable Transgender Hormone Therapy”</a></dd>
+<dd>Replies: <strong>4</strong></dd>
+<dd>Views: <strong>439</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=509795&amp;p=38973007&amp;hilit=challenge+litigation#p38973007">[<span class="posthilit">Challenge</span>] Repeal: “Affordable Transgender Hormone Therapy”</a></h3>
+<div class="content">Link to proposal&#58; https&#58;//www&#46;nationstates&#46;net/page=UN_view_proposal/id=the_north_polish_union_1631198107 And for posterity&#58; https&#58;//ifly6&#46;no-ip&#46;org/wa-proposal/the_north_polish_union_1631198107/ The General Assembly; APPLAUDING the intent of GA Resolution #467 “Affordable Transgender Hormone Therap&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=509795&amp;p=38973007&amp;hilit=challenge+litigation#p38973007" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=284218">Sierra Lyricalia</a></dt>
+<dd>30 Aug 2021 14:51</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=40">Secretariat Archives</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=40&amp;t=509397&amp;hilit=challenge+litigation">[CHALLENGE] Protections During Terr. X-itions</a></dd>
+<dd>Replies: <strong>14</strong></dd>
+<dd>Views: <strong>468</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=40&amp;t=509397&amp;p=38940789&amp;hilit=challenge+litigation#p38940789">[<span class="posthilit">CHALLENGE</span>] Protections During Terr. X-itions</a></h3>
+<div class="content">Proposal thread&#58; https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?f=9&amp;t=503437 <span class="posthilit">Challenge</span> thread&#58; https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?f=9&amp;t=509395 Briefly, the proposal purports to prohibit nations from violating rights guaranteed, not by future legislation; &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=40&amp;t=509397&amp;p=38940789&amp;hilit=challenge+litigation#p38940789" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=284218">Sierra Lyricalia</a></dt>
+<dd>30 Aug 2021 14:46</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=39">General Assembly Secretariat</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=39&amp;t=509396&amp;hilit=challenge+litigation">[CHALLENGE] - AT VOTE &quot;Repeal PtEoI&quot;</a></dd>
+<dd>Replies: <strong>5</strong></dd>
+<dd>Views: <strong>87</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=39&amp;t=509396&amp;p=38940771&amp;hilit=challenge+litigation#p38940771">[<span class="posthilit">CHALLENGE</span>] - AT VOTE &quot;Repeal PtEoI&quot;</a></h3>
+<div class="content">Proposal thread&#58; https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?f=9&amp;t=508976 <span class="posthilit">Challenge</span> thread&#58; https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?f=9&amp;t=509369 Three of us have posted in the public thread that we agree the proposed repeal commits an Honest Mistake &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=39&amp;t=509396&amp;p=38940771&amp;hilit=challenge+litigation#p38940771" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=461484" style="color: #ff69b4;" class="username-coloured">Imperium Anglorum</a></dt>
+<dd>30 Aug 2021 13:46</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=509395&amp;hilit=challenge+litigation">[Challenge] Protections During Territorial Transitions</a></dd>
+<dd>Replies: <strong>17</strong></dd>
+<dd>Views: <strong>1355</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=509395&amp;p=38940588&amp;hilit=challenge+litigation#p38940588">[<span class="posthilit">Challenge</span>] Protections During Territorial Transitions</a></h3>
+<div class="content">Metagaming? Amendment? House of Cards? Blocker? Proposals cannot break the &quot;fourth wall&quot; or attempt to force events outside of the WA itself&#46; This includes and is not limited to forcing the Security Council to carry out specific actions, mandating that regions carry out specific actions, a&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=509395&amp;p=38940588&amp;hilit=challenge+litigation#p38940588" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=461484" style="color: #ff69b4;" class="username-coloured">Imperium Anglorum</a></dt>
+<dd>29 Aug 2021 23:48</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=509369&amp;hilit=challenge+litigation">[Challenge] Repeal P Innocents</a></dd>
+<dd>Replies: <strong>21</strong></dd>
+<dd>Views: <strong>1158</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=509369&amp;p=38939148&amp;hilit=challenge+litigation#p38939148">[<span class="posthilit">Challenge</span>] Repeal P Innocents</a></h3>
+<div class="content">I'm creating this thread because apparently even though the topic was raised previously, no action seemed to have been taken on it&#46; At vote&#46; https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?f=9&amp;t=508976 Target&#46; https&#58;//forum&#46;nationstates&#46;net/viewtopic&#46;php?p=34697401#p34697401 Honest mistake&#46; Crimina&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=509369&amp;p=38939148&amp;hilit=challenge+litigation#p38939148" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=296708">Bananaistan</a></dt>
+<dd>07 Aug 2021 01:42</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=40">Secretariat Archives</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=40&amp;t=508571&amp;hilit=challenge+litigation">[CHALLENGE] Freedom Of Opinion And Belief</a></dd>
+<dd>Replies: <strong>11</strong></dd>
+<dd>Views: <strong>391</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=40&amp;t=508571&amp;p=38882577&amp;hilit=challenge+litigation#p38882577">[<span class="posthilit">CHALLENGE</span>] Freedom Of Opinion And Belief</a></h3>
+<div class="content"> Public <span class="posthilit">challenge</span> thread Debate thread Freedom Of Opinion And Belief A resolution to improve worldwide human and civil rights&#46; Category&#58; Civil Rights Strength&#58; Significant Proposed by&#58; Tinhampton Whereas brainwashing is bad and &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=40&amp;t=508571&amp;p=38882577&amp;hilit=challenge+litigation#p38882577" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=296708">Bananaistan</a></dt>
+<dd>07 Aug 2021 01:33</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=40">Secretariat Archives</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=40&amp;t=508570&amp;hilit=challenge+litigation">[CHALLENGE] Repeal: “Rights Of Crime Victims”</a></dd>
+<dd>Replies: <strong>11</strong></dd>
+<dd>Views: <strong>395</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=40&amp;t=508570&amp;p=38882568&amp;hilit=challenge+litigation#p38882568">[<span class="posthilit">CHALLENGE</span>] Repeal: “Rights Of Crime Victims”</a></h3>
+<div class="content"> Public <span class="posthilit">challenge</span> thread Debate thread Repeal&#58; “Rights Of Crime Victims” A resolution to repeal previously passed legislation&#46; Category&#58; Repeal Resolution&#58; GA#247 Proposed by&#58; Morover General Assembly Resolution #247 “Rights of &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=40&amp;t=508570&amp;p=38882568&amp;hilit=challenge+litigation#p38882568" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=998227">PotatoFarmers</a></dt>
+<dd>06 Aug 2021 23:47</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=508569&amp;hilit=challenge+litigation">[LEGALITY CHALLENGE] Freedom Of Opinion And Belief</a></dd>
+<dd>Replies: <strong>9</strong></dd>
+<dd>Views: <strong>702</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=508569&amp;p=38882447&amp;hilit=challenge+litigation#p38882447">[LEGALITY <span class="posthilit">CHALLENGE</span>] Freedom Of Opinion And Belief</a></h3>
+<div class="content">Proposal In Question&#58; Forum Thread here Freedom of Opinion and Belief A resolution to improve worldwide human sapient and civil rights&#46; Category&#58; Civil Rights Strength&#58; Significant Proposed by&#58; Tinhampton &#91;/align&#93; Whereas brainwashing is bad and wrong, the General Assembly hereby&#58; &sdot;&nbsp;forbid&#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=508569&amp;p=38882447&amp;hilit=challenge+litigation#p38882447" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=635753" style="color: #ff69b4;" class="username-coloured">Wallenburg</a></dt>
+<dd>06 Aug 2021 13:31</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=508558&amp;hilit=challenge+litigation">[CHALLENGE] Repeal &quot;Rights of Crime Victims&quot;</a></dd>
+<dd>Replies: <strong>11</strong></dd>
+<dd>Views: <strong>832</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=508558&amp;p=38881413&amp;hilit=challenge+litigation#p38881413">[<span class="posthilit">CHALLENGE</span>] Repeal &quot;Rights of Crime Victims&quot;</a></h3>
+<div class="content">Subject of <span class="posthilit">Challenge</span>&#58; Repeal &quot;Rights of Crime Victims&quot; The World Assembly, Believing in the intent behind Resolution 247, “Rights of Crime Victims”, in protecting the victims of crimes from the accused perpetrators, and &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=508558&amp;p=38881413&amp;hilit=challenge+litigation#p38881413" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg1">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=461484" style="color: #ff69b4;" class="username-coloured">Imperium Anglorum</a></dt>
+<dd>09 Jun 2021 09:48</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=9">General Assembly</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=9&amp;t=506136&amp;hilit=challenge+litigation">[Challenge] Repeal &quot;Toxic Heavy Metals Act&quot;</a></dd>
+<dd>Replies: <strong>60</strong></dd>
+<dd>Views: <strong>1911</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=9&amp;t=506136&amp;p=38722889&amp;hilit=challenge+litigation#p38722889">[<span class="posthilit">Challenge</span>] Repeal &quot;Toxic Heavy Metals Act&quot;</a></h3>
+<div class="content">As agreed upon with the author of the repeal, I <span class="posthilit">challenge</span> that repeal on honest mistake grounds&#46; The claim in the repeal that the WA Sci Programme would act like a mathematician in this way bears no relation to actual practice and misrepresents the &#46;&#46;&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=9&amp;t=506136&amp;p=38722889&amp;hilit=challenge+litigation#p38722889" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="search post bg2">
+<div class="inner"><span class="corners-top"><span></span></span>
+<dl class="postprofile">
+<dt class="author">by <a href="./memberlist.php?mode=viewprofile&amp;u=296708">Bananaistan</a></dt>
+<dd>03 Jun 2021 01:34</dd>
+<dd>&nbsp;</dd>
+<dd>Forum: <a href="./viewforum.php?f=40">Secretariat Archives</a></dd>
+<dd>Topic: <a href="./viewtopic.php?f=40&amp;t=505751&amp;hilit=challenge+litigation">[CHALLENGE] Pandemic Waste Awareness Act</a></dd>
+<dd>Replies: <strong>10</strong></dd>
+<dd>Views: <strong>344</strong></dd>
+</dl>
+<div class="postbody">
+<h3><a href="./viewtopic.php?f=40&amp;t=505751&amp;p=38706652&amp;hilit=challenge+litigation#p38706652">[<span class="posthilit">CHALLENGE</span>] Pandemic Waste Awareness Act</a></h3>
+<div class="content">&#46;&#46;&#46; recent years we have informally allowed it on a number of occasions where the context suggests that it refers to the whole GA&#46; I move we hear this <span class="posthilit">challenge</span> and clarify where &quot;we&quot; is acceptable or not&#46;</div>
+</div>
+<ul class="searchresults">
+<li><a href="./viewtopic.php?f=40&amp;t=505751&amp;p=38706652&amp;hilit=challenge+litigation#p38706652" class="right">Jump to post</a></li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<form method="post" action="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly">
+<fieldset class="display-options">
+<a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=0" class="left-box left">Previous</a><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=50" class="right-box right">Next</a>
+<label>Sort by</label><label> <select name="st" id="st"><option value="0" selected="selected">All results</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label> <label><select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="f">Forum</option><option value="i">Topic title</option><option value="s">Post subject</option></select></label>
+<label><select name="sd" id="sd"><option value="a">Ascending</option><option value="d" selected="selected">Descending</option></select> <input type="submit" name="sort" value="Go" class="button2" /></label>
+</fieldset>
+</form>
+<hr/>
+<ul class="linklist">
+<li class="rightside pagination">
+Search found 247 matches &bull; <a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Page <strong>2</strong> of <strong>10</strong></a> &bull; <span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly">1</a><span class="page-sep">, </span><strong>2</strong><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=50">3</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=75">4</a><span class="page-sep">, </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=100">5</a><span class="page-dots"> ... </span><a href="./search.php?st=0&amp;sk=t&amp;sd=d&amp;sr=posts&amp;keywords=challenge++%7Clitigation&amp;fid%5B%5D=9&amp;sf=titleonly&amp;start=225">10</a></span>
+</li>
+</ul>
+<p></p><p><a class="left-box left" href="./search.php" title="Advanced search" accesskey="r">Return to advanced search</a></p>
+<form method="post" id="jumpbox" action="./viewforum.php" onsubmit="if(this.f.value == -1){return false;}">
+<fieldset class="jumpbox">
+<label for="f" accesskey="j">Jump to:</label>
+<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+<option value="-1">Select a forum</option>
+<option value="-1">------------------</option>
+<option value="3">National and International Roleplaying</option>
+<option value="23">&nbsp; &nbsp;Factbooks and National Information</option>
+<option value="4">&nbsp; &nbsp;NationStates</option>
+<option value="5">&nbsp; &nbsp;International Incidents</option>
+<option value="6">&nbsp; &nbsp;Global Economics and Trade</option>
+<option value="7">&nbsp; &nbsp;NS Sports</option>
+<option value="8">World Assembly</option>
+<option value="9">&nbsp; &nbsp;General Assembly</option>
+<option value="39">&nbsp; &nbsp;&nbsp; &nbsp;General Assembly Secretariat</option>
+<option value="40">&nbsp; &nbsp;&nbsp; &nbsp;Secretariat Archives</option>
+<option value="24">&nbsp; &nbsp;Security Council</option>
+<option value="10">&nbsp; &nbsp;WA Archives</option>
+<option value="36">&nbsp; &nbsp;&nbsp; &nbsp;General Assembly Rules Consortium</option>
+<option value="11">National and Regional Gameplaying</option>
+<option value="12">&nbsp; &nbsp;Gameplay</option>
+<option value="13">&nbsp; &nbsp;Got Issues?</option>
+<option value="14">Nuts and Bolts</option>
+<option value="15">&nbsp; &nbsp;Technical</option>
+<option value="16">&nbsp; &nbsp;Moderation</option>
+<option value="18">General Discussion</option>
+<option value="20">&nbsp; &nbsp;General</option>
+<option value="19">&nbsp; &nbsp;Arts &amp; Fiction</option>
+<option value="35">&nbsp; &nbsp;&nbsp; &nbsp;Cards Against NationStates</option>
+<option value="43">&nbsp; &nbsp;&nbsp; &nbsp;Trivia Central</option>
+<option value="44">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;The Cheat Sheet</option>
+<option value="38">Fifth Dimension</option>
+<option value="31">&nbsp; &nbsp;Portal to the Multiverse</option>
+<option value="25">&nbsp; &nbsp;Forum 7</option>
+<option value="42">&nbsp; &nbsp;Trading Cards</option>
+<option value="21">Archives</option>
+<option value="27">&nbsp; &nbsp;Conservative Discussion Zone</option>
+<option value="26">&nbsp; &nbsp;Liberal Discussion Zone</option>
+<option value="30">&nbsp; &nbsp;IPO</option>
+<option value="34">&nbsp; &nbsp;ByteCoin Exchange</option>
+<option value="32">&nbsp; &nbsp;Gameplay &quot;R/D&quot; Summit</option>
+<option value="37">&nbsp; &nbsp;Election Headquarters</option>
+<option value="47">&nbsp; &nbsp;Global Trade Fair</option>
+<option value="41">&nbsp; &nbsp;Vault 41</option>
+<option value="33">&nbsp; &nbsp;Zombie Emergency Command Center</option>
+</select>
+<input type="submit" value="Go" class="button2" />
+</fieldset>
+</form>
+</div>
+<div id="page-footer">
+<div class="navbar">
+<div class="inner"><span class="corners-top"><span></span></span>
+<ul class="linklist">
+<li class="icon-home"><a href="./index.php">Board index</a></li>
+<li class="rightside"><a href="./ucp.php?mode=delete_cookies">Delete all board cookies</a> &bull; All times are UTC - 5 hours </li>
+</ul>
+<span class="corners-bottom"><span></span></span></div>
+</div>
+<div class="copyright">Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Group
+</div>
+</div>
+</div>
+<div>
+<a id="bottom" name="bottom" accesskey="z"></a>
+</div>
+</body>
+</html>
