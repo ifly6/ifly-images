@@ -60,17 +60,17 @@ print(
 ==================================================================
 Model:              OLS              Adj. R-squared:     -0.003   
 Dependent Variable: id_det           AIC:                -136.0078
-Date:               2023-12-05 21:58 BIC:                -126.8583
+Date:               2023-12-05 22:11 BIC:                -126.8583
 No. Observations:   156              Log-Likelihood:     71.004   
-Df Model:           2                F-statistic:        0.8269   
-Df Residuals:       153              Prob (F-statistic): 0.439    
+Df Model:           2                F-statistic:        0.7890   
+Df Residuals:       153              Prob (F-statistic): 0.456    
 R-squared:          0.010            Scale:              0.024022 
 -------------------------------------------------------------------
                   Coef.   Std.Err.    z     P>|z|    [0.025  0.975]
 -------------------------------------------------------------------
-Intercept         0.2114    0.0409  5.1745  0.0000   0.1313  0.2915
-chamber[T.SC]     0.0101    0.0248  0.4059  0.6848  -0.0386  0.0588
-after_5           0.0464    0.0442  1.0501  0.2937  -0.0402  0.1330
+Intercept         0.2114    0.0421  5.0213  0.0000   0.1289  0.2940
+chamber[T.SC]     0.0101    0.0251  0.4015  0.6881  -0.0391  0.0593
+after_5           0.0464    0.0455  1.0192  0.3081  -0.0428  0.1356
 ------------------------------------------------------------------
 Omnibus:               12.487       Durbin-Watson:          1.518 
 Prob(Omnibus):         0.002        Jarque-Bera (JB):       13.044
@@ -78,7 +78,7 @@ Skew:                  0.669        Prob(JB):               0.001
 Kurtosis:              3.465        Condition No.:          6     
 ==================================================================
 Notes:
-[1] Standard Errors are heteroscedasticity robust (HC2)
+[1] Standard Errors are heteroscedasticity robust (HC3)
 """
 
 # ----------------------------------------------------------------------------
