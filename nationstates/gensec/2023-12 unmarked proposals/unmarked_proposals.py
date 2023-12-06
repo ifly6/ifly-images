@@ -51,69 +51,33 @@ unmarked.to_csv(
     'proposals unmarked by chamber.csv', index=False)
 
 print(
-    smf.ols('id_det ~ chamber + after_5', data=unmarked)
+    smf.ols('id_det ~ chamber + chamber:after_5', data=unmarked)
     .fit(cov_type='HC3').summary2()
 )
 
 """
                  Results: Ordinary least squares
 ==================================================================
-Model:              OLS              Adj. R-squared:     -0.003   
-Dependent Variable: id_det           AIC:                -136.0078
-Date:               2023-12-05 22:11 BIC:                -126.8583
-No. Observations:   156              Log-Likelihood:     71.004   
-Df Model:           2                F-statistic:        0.7890   
-Df Residuals:       153              Prob (F-statistic): 0.456    
-R-squared:          0.010            Scale:              0.024022 
--------------------------------------------------------------------
-                  Coef.   Std.Err.    z     P>|z|    [0.025  0.975]
--------------------------------------------------------------------
-Intercept         0.2114    0.0421  5.0213  0.0000   0.1289  0.2940
-chamber[T.SC]     0.0101    0.0251  0.4015  0.6881  -0.0391  0.0593
-after_5           0.0464    0.0455  1.0192  0.3081  -0.0428  0.1356
+Model:              OLS              Adj. R-squared:     -0.005   
+Dependent Variable: id_det           AIC:                -134.6139
+Date:               2023-12-05 22:18 BIC:                -122.4145
+No. Observations:   156              Log-Likelihood:     71.307   
+Df Model:           3                F-statistic:        1.335    
+Df Residuals:       152              Prob (F-statistic): 0.265    
+R-squared:          0.014            Scale:              0.024087 
 ------------------------------------------------------------------
-Omnibus:               12.487       Durbin-Watson:          1.518 
-Prob(Omnibus):         0.002        Jarque-Bera (JB):       13.044
-Skew:                  0.669        Prob(JB):               0.001 
-Kurtosis:              3.465        Condition No.:          6     
+                      Coef.  Std.Err.   z    P>|z|   [0.025 0.975]
+------------------------------------------------------------------
+Intercept             0.1850   0.0370 4.9992 0.0000  0.1124 0.2575
+chamber[T.SC]         0.0630   0.0910 0.6926 0.4885 -0.1153 0.2413
+chamber[GA]:after_5   0.0763   0.0420 1.8168 0.0692 -0.0060 0.1586
+chamber[SC]:after_5   0.0165   0.0848 0.1942 0.8460 -0.1497 0.1827
+------------------------------------------------------------------
+Omnibus:               10.581       Durbin-Watson:          1.520 
+Prob(Omnibus):         0.005        Jarque-Bera (JB):       10.732
+Skew:                  0.613        Prob(JB):               0.005 
+Kurtosis:              3.383        Condition No.:          10    
 ==================================================================
 Notes:
 [1] Standard Errors are heteroscedasticity robust (HC3)
-"""
-
-# ----------------------------------------------------------------------------
-# rate of marking proposals statistically distinguishable, proposal level?
-
-pm = merged_data.groupby('ns_id')['id_det'].count().reset_index()
-
-# construct regressors
-pm['unmarked'] = (pm['id_det'] == 0).astype(int)
-pm['chamber'] = pm['ns_id'].map(prop.set_index('ns_id')['chamber'])
-pm['creation_date'] = pm['ns_id'].map(
-    prop.set_index('ns_id')['creation_date'])
-pm['after_5'] = (pm['creation_date'] >= '2022-08-20').astype(int)
-
-print(
-    smf.logit('unmarked ~ chamber + after_5', data=pm)
-    .fit().summary2()
-)
-
-"""
-                         Results: Logit
-================================================================
-Model:              Logit            Method:           MLE      
-Dependent Variable: unmarked         Pseudo R-squared: 0.002    
-Date:               2023-12-05 22:04 AIC:              2945.1869
-No. Observations:   2579             BIC:              2962.7523
-Df Model:           2                Log-Likelihood:   -1469.6  
-Df Residuals:       2576             LL-Null:          -1472.1  
-Converged:          1.0000           LLR p-value:      0.082521 
-No. Iterations:     5.0000           Scale:            1.0000   
-----------------------------------------------------------------
-                  Coef.  Std.Err.    z    P>|z|   [0.025  0.975]
-----------------------------------------------------------------
-Intercept        -1.3895   0.1722 -8.0698 0.0000 -1.7270 -1.0521
-chamber[T.SC]     0.1138   0.0939  1.2116 0.2257 -0.0703  0.2979
-after_5           0.3157   0.1774  1.7798 0.0751 -0.0319  0.6633
-================================================================
 """
