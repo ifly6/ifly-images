@@ -14,8 +14,8 @@ decs = pd.read_csv('decisions.csv.xz', parse_dates=['time'])
 
 merged_data = prop.merge(
     decs, left_on='id', right_on='proposal_id', how='left', suffixes=['_prt', '_det'])
-merged_data['month'] = merged_data['creation_date'].round(
-    'D') + pd.offsets.Week(weekday=6)
+merged_data['month'] = merged_data['creation_date'].round('D') \
+    + pd.offsets.Week(weekday=6)
 merged_data = merged_data[
     merged_data['creation_date'] > merged_data['time'].min()]
 
