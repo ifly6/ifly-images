@@ -19,7 +19,7 @@ This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gense
 
 A test (also called a decision rule or formula) takes facts and compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify that alternative, and apply it.
 
-Tests are more specific than the overarching rule: for "omission claims" ([2022] GAS 2 ¶¶ 3–4) and "tripartite action claims" (eg require, do nothing, and prohibit; [2024] GAS 5 ¶ 4) – these tests are specific applications of the veracity rule. The test _is not_ just a repetition of the rule burden itself.
+Tests are more specific than the overarching rule. An example follows. Within the veracity rule, there is a test for "omissions claims". This test, located in [2022] GAS 2 ¶¶ 3–4, specifies that "a claim that a target does not cover some topic... is not an honest mistake when the omission is 'very relevant' to the target's topic". The effect of this is to define what constitutes a plausible plain reading of the resolution. Tests are **not** just a repetition of the rule itself; they are tailored to the facts of the case.
 
 Submissions will be evaluated on the following dimensions: 
 * final decision correctness (illegal or legal);
