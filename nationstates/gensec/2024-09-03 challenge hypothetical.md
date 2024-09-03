@@ -24,8 +24,8 @@ A test (also called a decision rule or formula) takes facts and compels a conclu
 
 Tests are more specific than the overarching rule. An example follows. One of the committee rule tests is given in [2024] GAS 4: "it is not a contradiction for committees to exercise the same powers or fulfil the same duties concurrently". This test is constructed to get the committee rule close to the facts at hand. The test needs to be justified with respect to the committee rule and precedent but is **not** just repeating the rule itself; it is tailored to the facts at hand.
 
-Judgement criteria
-------------------
+Assessment criteria
+-------------------
 
 Submissions will be evaluated on the following dimensions: 
 * final decision correctness (illegal or legal);
