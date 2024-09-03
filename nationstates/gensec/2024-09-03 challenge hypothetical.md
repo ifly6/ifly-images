@@ -15,8 +15,8 @@ A challenge is brought against this proposal alleging ...
 
 2. Write a draft opinion disposing of the action and issues brought and reaching a conclusion as to the proposal's legality.
 
-Tips
-----
+Tips and definitions
+--------------------
 
 This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. It may be useful to read recent opinions to get an understanding of their conventional structure and contents. Meandering opinions are hard to read and understand; consider outlining your opinion before drafting.
 
