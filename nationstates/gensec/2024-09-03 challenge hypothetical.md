@@ -1,7 +1,7 @@
 Open hypothetical, September 2024
 =================================
 
-Accept as given this hypothetical. Ignore the existence (or non-existence) of other resolutions. Read this prompt in its entirety.
+Accept as given this hypothetical. Ignore the existence (or non-existence) of other resolutions. **Read this prompt in its entirety.**
 
 A proposal makes the following claims:
 
