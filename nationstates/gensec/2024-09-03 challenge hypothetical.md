@@ -18,11 +18,15 @@ A challenge is brought against this proposal alleging ...
 Tips and definitions
 --------------------
 
-This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. It may be useful to read recent opinions to get an understanding of their conventional structure and contents. Meandering opinions are hard to read and understand; consider outlining your opinion before drafting.
+This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. It may be useful to read recent opinions to get an understanding of their conventional structure and contents.
 
-A test (also called a decision rule or formula) takes facts and compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify that alternative, and apply it.
+A test (also called a decision rule or formula) takes facts and compels a conclusion one way or the other on legality. **It is explicit guidance as to the kind of proposals that are or are not permissible.** If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify that alternative, and apply it.
 
-Tests are more specific than the overarching rule. An example follows. One of the committee rule tests is given in [2024] GAS 4: "it is not a contradiction for committees to exercise the same powers or fulfil the same duties concurrently". This test is constructed to get the committee rule close to the facts at hand. The test needs to be justified with respect to the committee rule and precedent but is **not** just repeating the rule itself; it is tailored to the facts at hand.
+Tests **are not** a mere restatement of the rule; they are tailored to the case's facts. For example, [2024] GAS 4 gives a committee rule test: "it is not a contradiction for committees to exercise the same powers or fulfil the same duties concurrently". Tests must be justified with respect to the rule and precedent. They slot in between the case's proposal and the rules, applying to a clearly defined class of proposals.
+
+**State the test explicitly.** Consider bolding it. GenSec opinions offer guidance as to the kinds of proposals that people can and cannot write. Good guidance is easy for anyone to understand or apply. Good tests are the same.
+
+Verbal meandering is obfuscatory: it reduces reader understanding and makes draft opinions harder to assess. Consider outlining your opinion before writing it. Cut unnecessary words.
 
 Assessment criteria
 -------------------
