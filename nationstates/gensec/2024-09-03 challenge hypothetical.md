@@ -15,8 +15,10 @@ A challenge is brought against this proposal alleging ...
 
 2. Write a draft opinion disposing of the action and issues brought and reaching a conclusion as to the proposal's legality.
 
-This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing what is expected from a draft opinion.
+This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. You may also find it useful to read recent opinions to get an understanding of the _structure_ of an opinion. Many members of the Secretariat do not entirely enjoy meandering prose; consider outlining your opinion before drafting.
 
 A test – also formula – is a decision rule which, given a certain set of facts, compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify this alternative, and apply it.
+
+Submissions will be evaluated on the dimensions: final decision correctness (illegal or legal); issue spotting (completeness and correctness); application of the correct framework; whether there is a statement of the decision rule; whether the facts are applied properly to the decision rule; the extent of engagement with precedent; the quality of arguments and engagement with counterarguments; and opinion clarity.
 
 Do not circulate responses to or request assistance in answering this question.
