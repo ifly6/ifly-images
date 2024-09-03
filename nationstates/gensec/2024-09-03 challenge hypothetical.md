@@ -27,7 +27,7 @@ Tests are more specific than the overarching rule. An example follows. One of th
 Assessment criteria
 -------------------
 
-Submissions will be evaluated on the following dimensions: 
+Submissions will be assessed on the following dimensions: 
 * final decision correctness (illegal or legal);
 * issue spotting (completeness and correctness);
 * articulation of the test:
