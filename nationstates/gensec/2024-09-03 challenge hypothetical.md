@@ -19,6 +19,13 @@ This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gense
 
 A test – also formula – is a decision rule which, given a certain set of facts, compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify this alternative, and apply it.
 
-Submissions will be evaluated on the dimensions: final decision correctness (illegal or legal); issue spotting (completeness and correctness); application of the correct framework; whether there is a statement of the decision rule; whether the facts are applied properly to the decision rule; the extent of engagement with precedent; the quality of arguments and engagement with counterarguments; and opinion clarity.
+Submissions will be evaluated on the following dimensions: 
+* final decision correctness (illegal or legal);
+* issue spotting (completeness and correctness);
+* _explicit statement of_ and justification for the decision rule;
+* correct application of the decision rule;
+* extent of engagement with precedent;
+* quality of arguments and engagement with counterarguments; and
+* opinion clarity.
 
 Do not circulate responses to or request assistance in answering this question.
