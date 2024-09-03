@@ -19,6 +19,8 @@ This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gense
 
 A test – also formula – is a decision rule which, given a certain set of facts, compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify this alternative, and apply it.
 
+Tests are more specific than the rule burden. Eg the test for "omission claims" within the veracity (= honest mistake) rule. Do not just repeat the rule burden.
+
 Submissions will be evaluated on the following dimensions: 
 * final decision correctness (illegal or legal);
 * issue spotting (completeness and correctness);
