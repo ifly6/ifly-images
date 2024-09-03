@@ -31,4 +31,4 @@ Submissions will be evaluated on the following dimensions:
 * quality of arguments and engagement with counterarguments; and
 * opinion clarity.
 
-Do not circulate responses to or request assistance in answering this question. Please direct questions about the prompt to Imperium Anglorum.
+Do not circulate responses to or request assistance in answering this question. Direct questions about the prompt to Imperium Anglorum.
