@@ -19,7 +19,7 @@ This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gense
 
 A test – also formula – is a decision rule which, given a certain set of facts, compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify this alternative, and apply it.
 
-Tests are more specific than the rule burden. Eg the test for "omission claims" within the veracity (= honest mistake) rule. Do not just repeat the rule burden.
+Tests are more specific than the rule burden. Eg the tests for "omission claims" ([2022] GAS 2 ¶¶ 3–4) and tripartite action claims (action, inaction, and negative action; eg require, do nothing, and prohibit; see [2024] GAS 5 ¶ 4) – these are specific applications of the veracity rule. A test _is not_ just a repetition of the rule burden itself.
 
 Submissions will be evaluated on the following dimensions: 
 * final decision correctness (illegal or legal);
