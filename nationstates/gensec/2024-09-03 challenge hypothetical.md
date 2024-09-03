@@ -17,16 +17,17 @@ A challenge is brought against this proposal alleging ...
 
 This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. It may be useful to read recent opinions to get an understanding of their structure and contents. Meandering opinions are hard to read and understand; consider outlining your opinion before drafting.
 
-A test – also formula – is a decision rule which, given a certain set of facts, compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify that alternative, and apply it.
+A test (also called a decision rule or formula) takes facts and compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify that alternative, and apply it.
 
-Tests are more specific than the rule burden. Eg the tests for "omission claims" ([2022] GAS 2 ¶¶ 3–4) and "tripartite action claims" (action, inaction, and negative action; eg require, do nothing, and prohibit; see [2024] GAS 5 ¶ 4) – these are specific applications of the veracity rule. A test _is not_ just a repetition of the rule burden itself.
+Tests are more specific than the overarching rule: for "omission claims" ([2022] GAS 2 ¶¶ 3–4) and "tripartite action claims" (eg require, do nothing, and prohibit; [2024] GAS 5 ¶ 4) – these tests are specific applications of the veracity rule. The test _is not_ just a repetition of the rule burden itself.
 
 Submissions will be evaluated on the following dimensions: 
 * final decision correctness (illegal or legal);
 * issue spotting (completeness and correctness);
-* _explicit statement of_ and justification for the decision rule;
-* correct application of the decision rule;
-* extent of engagement with precedent;
+* application of the correct test:
+    * selection and statement of the correct test,
+    * justification for the test that engages with precedent, and
+    * correct application of facts to the test;
 * quality of arguments and engagement with counterarguments; and
 * opinion clarity.
 
