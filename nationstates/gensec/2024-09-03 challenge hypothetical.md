@@ -15,7 +15,7 @@ A challenge is brought against this proposal alleging ...
 
 2. Write a draft opinion disposing of the action and issues brought and reaching a conclusion as to the proposal's legality.
 
-This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. It may be useful to read recent opinions to get an understanding of their structure and contents. Meandering opinions are hard to read and understand; consider outlining your opinion before drafting.
+This [blog post](https://imperiumanglorum.wordpress.com/2024/03/23/writing-gensec-opinions/) may be helpful in detailing the structure and contents expected in a draft opinion. It may be useful to read recent opinions to get an understanding of their conventional structure and contents. Meandering opinions are hard to read and understand; consider outlining your opinion before drafting.
 
 A test (also called a decision rule or formula) takes facts and compels a conclusion one way or the other on legality. If there are existing relevant tests, _cite them_ and apply them. If you believe the existing test is inapt, propose an alternative, justify that alternative, and apply it.
 
@@ -24,7 +24,7 @@ Tests are more specific than the overarching rule: for "omission claims" ([2022]
 Submissions will be evaluated on the following dimensions: 
 * final decision correctness (illegal or legal);
 * issue spotting (completeness and correctness);
-* application of the correct test:
+* articulation of the test:
     * selection and statement of the correct test,
     * justification for the test that engages with precedent, and
     * correct application of facts to the test;
