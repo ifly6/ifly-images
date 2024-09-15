@@ -1,19 +1,23 @@
 Open hypothetical, September 2024
 =================================
 
-Accept as given this hypothetical. Ignore the existence (or non-existence) of other resolutions. **Read this prompt in its entirety.**
+**Read this prompt in its entirety.** Assume no other resolutions exist. A repeal of GA 279 _Right of Emigration_ contains the following text:
 
 A proposal makes the following claims:
 
-> ...
+> The target permits desertion from member state militaries. Such desertion during an existential war would be extremely harmful to member nations' capacity to resist foreign invasion.
 > 
-> ...
+> Section Declares(d) of the target fails to define mental incapacity, leading to considerable confusion for member nations.
+> 
+> Target's failure to define mental incapacity allows for a member nation to declare its entire population as mentally incapable to prevent their exit.
 
-A challenge is brought against this proposal alleging ...
+A challenge is brought against this proposal alleging veracity violations. The first question tests issue spotting; the second question tests opinion writing.
 
-1. Identify the possible ways the proposal might be illegal under the ... rule. Such reasons need not be more than plausible on first glance.
+1. In a list, identify as many possible ways the proposal might violate veracity. Those ways do not need to be more than plausible on first glance; you may also note ways the proposal *does not* violate veracity.
 
-2. Write a draft opinion disposing of the action and issues brought and reaching a conclusion as to the proposal's legality.
+2. Write a draft opinion *of the sort that GenSec would publish* disposing of the action and issues brought and reaching a conclusion as to the proposal's legality.
+
+Answer these questions separately.
 
 Tips and definitions
 --------------------
