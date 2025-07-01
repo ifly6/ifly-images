@@ -38,15 +38,13 @@ est <- plm(
   model = 'within'
 )
 est_wi <- within_intercept(est, return.model = TRUE)
-
 results_summary <- capture.output(summary(
   est_wi,
   vcov = function(x)
     vcovHC(x, type = 'HC3', cluster = 'time')
 ))
-writeLines(results_summary, 'secy_delays__plm_results.txt')
 
-# convert back to hours ---------------------------------------------------
+# summarise and convert to hours ------------------------------------------
 
 library(broom)
 est_coefs <- tidy(est_wi)
