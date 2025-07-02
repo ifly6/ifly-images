@@ -3,6 +3,7 @@ library(arrow)
 library(sandwich)
 library(lmtest)
 library(scales)
+library(broom)
 
 # io ----------------------------------------------------------------------
 
@@ -16,7 +17,9 @@ min_delays <- read_parquet('secy_decisions+delays.parquet') %>%
     delay = as.numeric(delay, units = 'hours'),
     hour = hour(PROPOSAL_DATE),
     post_resign = DECISION_DATE > IA_RESIGN,
-    transition = between(DECISION_DATE, IA_RESIGN, BALLO_START),
+    transition = IA_RESIGN <= DECISION_DATE &
+      DECISION_DATE <= BALLO_START,
+    DECISION=tolower(DECISION)
   )
 
 # plot a histogram of the delay values
@@ -38,16 +41,18 @@ est <- plm(
   model = 'within'
 )
 est_wi <- within_intercept(est, return.model = TRUE)
-results_summary <- capture.output(summary(
+est_sm <- summary(
   est_wi,
   vcov = function(x)
     vcovHC(x, type = 'HC3', cluster = 'time')
-))
+)
+results_summary <- capture.output(est_sm)
 
 # summarise and convert to hours ------------------------------------------
 
-library(broom)
-est_coefs <- tidy(est_wi)
+est_coefs <- as_tibble(est_sm$coefficients, rownames='term')
+colnames(est_coefs) <- c('term', 'estimate', 'std.error', 't.value', 'p.value')
+est_coefs$avg_effect <- vector(mode='numeric', length=nrow(est_coefs))
 est_coefs$avg_effect[2:nrow(est_coefs)] <-
   exp(est_coefs$estimate[1] + est_coefs$estimate[2:nrow(est_coefs)]) -
   exp(est_coefs$estimate[1])
@@ -74,5 +79,5 @@ fe_plot <- ggplot(fe_estimates, aes(x = reorder(hours_est, fe), y = fe)) +
   coord_flip() +
   labs(title = "Hourly fixed effects", x = 'Hours (EST)', y = "Percentage effect (eg 25% longer)") +
   theme_minimal()
-ggsave('secretariat_delays fe_hours ggplot.jpg', fe_plot, dpi=128)
+ggsave('secretariat_delays fe_hours ggplot.jpg', fe_plot, dpi = 128)
 fe_plot
